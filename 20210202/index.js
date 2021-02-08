@@ -39,7 +39,7 @@ console.log(save);
 const arr = new Array();
 console.log(arr);
 
-//COOL FOR - loop which grabs all the properties in the object and do things with them
+//COOL FOR - loop which grabs all the properties in the object and do things with them, works only with bracket notation:
 for (let prop in userObj) {
   // prop stands for property
   console.log(`userObj.${prop}`);
@@ -181,3 +181,24 @@ student.print();
 //     dogs: 2,
 //     turtles: 4,
 // }
+
+//delete
+
+// delete objectToArray.cats;
+// console.log()
+
+//hasOwn
+
+// Object.seal() - you can modify, but can't add
+
+// [{}, {}, {}] - array of objects
+
+// [[],[],[]] array of arrays
+
+/* {
+  ob1:{
+
+  },
+  ob2
+}
+
