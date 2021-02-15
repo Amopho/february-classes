@@ -88,29 +88,26 @@ let car = {
   modelName: "Honda Civic R type",
   modelNumber: "VIII",
   engineCapacity: 2,
-  get fullCar() {
-    console.log(`${this.modelName} ${this.modelNumber} ${this.engineCapacity}`);
+  get data() {
+    console.log(
+      `${this.modelName} ${this.modelNumber} ${this.engineCapacity} cm3`
+    );
   },
-  set fullCar(str) {
-    let arr = str.split(" ");
-    this.modelName = arr[0];
-    this.modelNumber = arr[1];
-    this.engineCapacity = [2];
+  set data(obj) {
+    car.modelName = obj.name;
+    car.modelNumber = obj.num;
+    car.engineCapacity = obj.cap;
   },
+  // set carNew(str) {
+  //   let arr = str.split(" ");
+  //   car.modelName = arr[0];
+  //   car.modelNumber = arr[1];
+  //   car.engineCapacity = arr[2];
+  // },
 };
 //getter
-console.log(car.modelName);
+car.data;
 
 //setter
-car.modelName = "Audi SQ 8";
-car.modelNumber = "I";
-car.engineCapacity = 4;
-console.log(`${car.modelName},${car.modelNumber}, ${car.engineCapacity}`);
-
-// set car(str) {
-//     let arr = str.split(" ");
-//     this.modelName = arr[0];
-//     this.modelNumber = arr[1];
-//     this.capacity = arr[2];
-//   },
-// };
+car.data = { name: "Audi SQ 8", num: "I", cap: 4 }; // filling the object
+car.data; // getting new data
