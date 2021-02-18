@@ -20,7 +20,7 @@ function totalScore(arr) {
 }
 console.log(totalScore(scrabbleTiles));
 
-//More advanced approach
+//Scrabble More advanced approach
 
 const totalScore1 = (arr) => {
   return arr.reduce((acc, cur) => acc + cur.score, 0);
@@ -41,8 +41,7 @@ function multiplesOfThree() {
 
 console.log(multiplesOfThree());
 
-/ Extra work :)
-// create a repo for this app. we are coming later to it :)
+// Password generator
 // Create a program that generate a random password with the length of 30 character, every time you call the function should give you a different password
 
 function generatePassword() {
@@ -62,6 +61,25 @@ function generatePassword() {
 
 console.log("Your new password: " + generatePassword());
 
+
+console.log(`_______________________________________________`)
+
+/*  Finish the following function so it outputs looks like this:
+  1
+  12
+  123
+  1234
+  12345
+   const numbersCount = () => {
+    for (let i = 0; i <= 5; i++) {
+      // something
+      for (let j = 1; j <= i; j++) {
+          // something
+      }
+        // something
+    }
+  };
+
 //     /*
 // Bonus: create another function by doing some changes to the previous function in order to have the following outputs :
 //   12345
@@ -92,19 +110,6 @@ const numbersCount = () => {
   }
 };
 
-//   numbersCount();
-
-//   <<<<<<< HEAD
-
-//   Bonus: create another function by doing some changes to the previous function in order to have the following outputs :
-//     12345
-//     1234
-//     123
-//     12
-//     1
-//   */
-
-// break;
 // Breaking out of a loop:
 /*
 
@@ -149,89 +154,7 @@ const drawing = () => {
 
 drawing();
 
-/*  draw this shapes in your console
-First shape
-T
-TT
-TTT
-TTTT
-Second shape
-****
-***
-**
-*
-Third shape
-1
-12
-123
-1234
-12345
-// // // Bounce: Forth shape
-// // // Be creative and show us your Artistic side
-// // // */
-
-// // // const draw = () => {
-// // //   console.log("First shape");
-
-// // //   let picture1 = "";
-// // //   for (let i = 1; i <= 4; i++) {
-// // //     i > 1 ? (picture1 += "\n") : null;
-// // //     for (let j = 1; j <= i; j++) {
-// // //       picture1 += "T";
-// // //     }
-// // //   }
-// // //   console.log(picture1);
-
-// // //   console.log("Second shape");
-
-// // //   let picture2 = "";
-// // //   for (let i = 4; i >= 1; i--) {
-// // //     i < 4 ? (picture2 += "\n") : null;
-// // //     for (let j = 1; j <= i; j++) {
-// // //       picture2 += "*";
-// // //     }
-// // //   }
-// // //   console.log(picture2);
-
-// // //   console.log("Third shape");
-// // //   let j = "";
-// // //   for (let i = 1; i <= 5; i++) {
-// // //     j += i + "";
-// // //     console.log(j);
-// // //   }
-
-// // //   console.log("Forth shape");
-
-// // //   let picture4 = "";
-// // //   for (let i = 1; i <= 5; i++) {
-// // //     for (let j = 1; j <= 5; j++) {
-// // //       picture4 += `ʕ•ᴥ•ʔ`;
-// // //     }
-// // //     picture4 += `\n`;
-// // //   }
-// // //   console.log(picture4);
-// // // };
-
-// draw();
-
-console.log("--------Exercise 7-------");
-
-/*  Finish the following function so it outputs looks like this:
-  1
-  12
-  123
-  1234
-  12345
-   const numbersCount = () => {
-    for (let i = 0; i <= 5; i++) {
-      // something
-      for (let j = 1; j <= i; j++) {
-          // something
-      }
-        // something
-    }
-  };
-  numbersCount();
+  /* numbersCount();
   Bonus: create another function by doing some changes to the previous function in order to have the following outputs :
     12345
     1234
@@ -264,49 +187,6 @@ const numbersCountReverse = () => {
 };
 numbersCountReverse();
 
-//     /*
-// Bonus: create another function by doing some changes to the previous function in order to have the following outputs :
-//   12345
-//   1234
-//   123
-//   12
-//   1
-// */
-
-const numbersCount = () => {
-  let text;
-  4 >= 0;
-  for (let i = 5; i >= 0; i--) {
-    something;
-    i = 3;
-    text = "";
-    text = "";
-    5 <= 4;
-    for (let j = 1; j <= i; j++) {
-      j = 5;
-      something;
-      text += j;
-      "123" + 4;
-    }
-    something;
-    console.log(text);
-    ("1234");
-  }
-};
-
-//   numbersCount();
-
-//   <<<<<<< HEAD
-
-//   Bonus: create another function by doing some changes to the previous function in order to have the following outputs :
-//     12345
-//     1234
-//     123
-//     12
-//     1
-//   */
-
-// break;
 // Breaking out of a loop:
 /*
 
@@ -351,6 +231,8 @@ const drawing = () => {
 
 drawing();
 
+console.log("--------Exercise 7-------");
+
 /*  draw this shapes in your console
 First shape
 T
@@ -368,100 +250,87 @@ Third shape
 123
 1234
 12345
-// // // Bounce: Forth shape
-// // // Be creative and show us your Artistic side
-// // // */
-
-// // // const draw = () => {
-// // //   console.log("First shape");
-
-// // //   let picture1 = "";
-// // //   for (let i = 1; i <= 4; i++) {
-// // //     i > 1 ? (picture1 += "\n") : null;
-// // //     for (let j = 1; j <= i; j++) {
-// // //       picture1 += "T";
-// // //     }
-// // //   }
-// // //   console.log(picture1);
-
-// // //   console.log("Second shape");
-
-// // //   let picture2 = "";
-// // //   for (let i = 4; i >= 1; i--) {
-// // //     i < 4 ? (picture2 += "\n") : null;
-// // //     for (let j = 1; j <= i; j++) {
-// // //       picture2 += "*";
-// // //     }
-// // //   }
-// // //   console.log(picture2);
-
-// // //   console.log("Third shape");
-// // //   let j = "";
-// // //   for (let i = 1; i <= 5; i++) {
-// // //     j += i + "";
-// // //     console.log(j);
-// // //   }
-
-// // //   console.log("Forth shape");
-
-// // //   let picture4 = "";
-// // //   for (let i = 1; i <= 5; i++) {
-// // //     for (let j = 1; j <= 5; j++) {
-// // //       picture4 += `ʕ•ᴥ•ʔ`;
-// // //     }
-// // //     picture4 += `\n`;
-// // //   }
-// // //   console.log(picture4);
-// // // };
 
 // draw();
 
-console.log("--------Exercise 7-------");
+*/
 
-/*  Finish the following function so it outputs looks like this:
-  1
-  12
-  123
-  1234
-  12345
-   const numbersCount = () => {
-    for (let i = 0; i <= 5; i++) {
-      // something
-      for (let j = 1; j <= i; j++) {
-          // something
-      }
-        // something
-    }
+console.log(`____________________________________________________________`)
+// Loops in arrays
+//for of arr
+let family = [
+  ["Zain", 22, "teacher"],
+  ["Olga", 40, "chef"],
+];
+for (let i = 0; i < family.length; i++) {
+  for (let j = 0; j < family[i].length; j++) {
+    console.log(family[i][j]);
+  }
+}
+// forEach arr
+family.forEach((arr) => arr.forEach((element) => console.log(element)));
+//for of arr
+for (let [key, val] of Object.entries(zain)) {
+  console.log(`${key}: ${val}`);
+}
+
+// constructor template
+function Person(name, age, act) {
+  this.name = name;
+  this.age = age;
+  this.act = act;
+  this.printOut = function () {
+    console.log(
+      `Hey ${this.name}, you are too old ${this.age} and you do ${this.act}`
+    );
   };
-  numbersCount();
-  Bonus: create another function by doing some changes to the previous function in order to have the following outputs :
-    12345
-    1234
-    123
-    12
-    1
-  */
+}
+let zain = new Person("Zain", (21)[("sleep", "eat")]);
+zain.printOut();
+const olga = new Person("Olga", 40, "No thing");
+olga.printOut();
 
-const numbersCount1 = () => {
-  let str = "";
-  for (let i = 0; i <= 5; i++) {
-    str += `\n`;
-    for (let j = 1; j <= i; j++) {
-      str += j;
-    }
-  }
-  console.log(str);
+// get & set, create a car object that uses getter and setter method to get and set the following (modelName,modelNumber,enginCapacity)
+// first get the data
+// then set the data
+let car = {
+  modelName: "Honda Civic R type",
+  modelNumber: "VIII",
+  engineCapacity: 2,
+  get data() {
+    console.log(
+      `${this.modelName} ${this.modelNumber} ${this.engineCapacity}`
+    );
+  },
+  set data(obj) {
+    car.modelName = obj.name;
+    car.modelNumber = obj.num;
+    car.engineCapacity = obj.cap;
+  },
+  // set carNew(str) {
+  //   let arr = str.split(" ");
+  //   car.modelName = arr[0];
+  //   car.modelNumber = arr[1];
+  //   car.engineCapacity = arr[2];
+  // },
 };
-numbersCount1();
+//getter
+car.data;
 
-const numbersCountReverse = () => {
-  let str = "";
-  for (let i = 5; i >= 0; i--) {
-    str += `\n`;
-    for (let j = 1; j <= i; j++) {
-      str += j;
-    }
+//setter
+car.data = { name: "Audi SQ 8", num: "I", cap: 4 }; // filling the object
+car.data; // getting new data
+
+class Thermostat {
+  constructor(fahrenheit) {
+    this.celsius= 5/9* (fahrenheit-32);
   }
-  console.log(str);
-};
-numbersCountReverse();
+  get temperature() {
+    return this.celsius;
+  }
+  set temperature(updateTemp) {
+    this.celsius= updateTemp;
+  }
+}
+
+const= therm = new Thermostat(76);
