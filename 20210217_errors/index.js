@@ -1,3 +1,10 @@
+// 3 types of errors
+// (compilation aka compiler fails to compile, runtime, logic)
+// try catch will find the runtime errors but not the parse errors like typo or syntax problems
+
+// most of the error are coming from other places like eorking with data base or server internal issues,
+// 'try { ... } catch (e) { ... }`
+
 let userAge = 25;
 if (userAge == 24) {
   console.log("Cool you are the best");
@@ -25,4 +32,8 @@ function printData() {
 const TimerDisplay = setTimeout(() => console.log("I am wining"), 3000);
 // We will learn after HTML & CSS && SASS
 //
-//
+// callbacks
+// Promise
+// async/ await
+// RxJS
+// and a lot more
