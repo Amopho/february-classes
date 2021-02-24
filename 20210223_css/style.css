@@ -1,0 +1,139 @@
+body {
+  background-color: orange;
+  background-image: url("./cool.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* if you have a font name with a space, use a quatation mark so to write it as a font in css */
+  /* soon we will be talking about this */
+  font-size: larger;
+  font-style: normal;
+  font-weight: bold;
+  /* border: black 2px solid;
+  border-top: red 2px dashed;
+  border-bottom: none; */
+}
+
+li a {
+  color: silver;
+  font-size: medium;
+}
+
+nav ul {
+  background-color: rgba(104, 130, 113, 0.618);
+}
+
+#job {
+  color: steelblue;
+}
+
+#home {
+  color: burlywood;
+}
+
+.same {
+  background-color: yellow;
+}
+
+h1,
+h2,
+strong,
+.same {
+  color: rgba(104, 130, 113, 0.618);
+}
+
+h1,
+h2 {
+  color: blue;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+body {
+  border: black 2px solid;
+}
+
+section {
+  width: 50vw;
+  height: 50vw;
+}
+
+article {
+  width: 80%;
+  height: 50%;
+}
+
+#main-text {
+  color: teal;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  line-height: 40px;
+  /* for spacing on portable device with small screen, above 40px use vw instead as 40px on the screen isnt the same as on the mobile */
+  text-align: left;
+  text-transform: capitalize;
+  text-indent: 2vw;
+  text-decoration: lightblue wavy underline;
+  font-family: "Krona One", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+  /* rem 16px *num = ??px
+  em parent*num = ??px; */
+  font-size: 0.8em;
+}
+
+/* a {
+  color: orange;
+  /* didnt change anything as it has so many parents and other relations that it is not able to execute it straithg forward  */
+/* } */
+
+nav ul li a {
+  color: orange;
+  text-decoration: none;
+  background-color: navajowhite;
+}
+
+/* changing the habits */
+a:visited,
+a:link {
+  color: orange;
+}
+/* removing the dots from nav */
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  color: brown;
+}
+
+form {
+  position: absolute;
+  top: 40rem;
+  right: 0;
+}
+
+.img {
+  width: 10rem;
+  height: 10rem;
+  /* Use with care */
+  /* float: right; */
+
+  display: inline;
+  /* display: none = your image doesnt have any preserved place after dissappearing */
+  /* visibility: hidden; */
+  /*   visibility: hidden; there stays a preserved place from the unvisible imaga; */
+}
