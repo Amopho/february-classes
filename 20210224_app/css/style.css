@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Oswald";
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+/* when using font from google you have to put an acknowledgment */
+:root {
+  font-family: "Oswald";
+}
+
+h1 {
+  font-family: "Oswald";
+}
+
+.moon {
+  background-color: lightsteelblue;
+  width: 3rem;
+  height: 3rem;
+}
+
+div {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+}
+
+.rectangle {
+  background-color: lightsteelblue;
+  width: 3rem;
+  height: 8rem;
+}
+
+.triangular {
+  width: 0rem;
+  height: 0rem;
+  border-bottom: 6rem solid lightsteelblue;
+  border-right: 6rem solid transparent;
+  filter: grayscale(80%);
+}
+
+.doublecolored {
+  background-color: steelblue;
+  width: 0rem;
+  height: 0rem;
+  border-bottom: 6rem solid lightsteelblue;
+  border-right: 6rem solid transparent;
+}
+
+.square {
+  background-color: lightsteelblue;
+  width: 10rem;
+  height: 10rem;
+}
+
+.circle {
+  background-color: lightsteelblue;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+.draw {
+  width: 4rem;
+  height: 4rem;
+  background-color: yellowgreen;
+  display: inline-block;
+  /* transform: rotateZ(30deg); */
+  transform: scale(0.87, 0.5);
+}
+
+.some {
+  width: 4rem;
+  height: 4rem;
+  background-color: teal;
+  display: inline-block;
+  position: relative;
+  top: 3vw;
+  box-shadow: 5px 5px 10px gray;
+  transform: rotate(200deg);
+  z-index: -1
+  opacity: 0.2;
+}
